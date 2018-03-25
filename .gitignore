@@ -7,10 +7,3 @@ node_modules
 pages/emails
 src
 templates
-package-lock.json
-package.json
-bower.json
-.bowerrc
-gulpfile.babel.js
-.babelrc
-.gitignore
