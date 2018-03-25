@@ -439,24 +439,25 @@ nav.navbar {
       margin: 0; } }
   .header-top-panel .buttons-panel {
     display: inline-flex; }
-    .header-top-panel .buttons-panel button {
+    .header-top-panel .buttons-panel button, .header-top-panel .buttons-panel a {
       color: #003764;
       font-size: 16px;
       font-family: Gilroy-Medium;
       line-height: 19px;
       outline: none;
       box-shadow: none;
-      background-color: transparent; }
-      .header-top-panel .buttons-panel button > img {
+      background-color: transparent;
+      text-decoration: none; }
+      .header-top-panel .buttons-panel button > img, .header-top-panel .buttons-panel a > img {
         margin-right: 3px; }
-      .header-top-panel .buttons-panel button.choose-language-btn .flag {
+      .header-top-panel .buttons-panel button.choose-language-btn .flag, .header-top-panel .buttons-panel a.choose-language-btn .flag {
         height: 20px;
         width: 20px;
         border-radius: 50%;
         overflow: hidden; }
-      .header-top-panel .buttons-panel button.basket-btn {
+      .header-top-panel .buttons-panel button.basket-btn, .header-top-panel .buttons-panel a.basket-btn {
         position: relative; }
-        .header-top-panel .buttons-panel button.basket-btn .product-count {
+        .header-top-panel .buttons-panel button.basket-btn .product-count, .header-top-panel .buttons-panel a.basket-btn .product-count {
           position: absolute;
           top: 100%;
           margin-top: -14px;
