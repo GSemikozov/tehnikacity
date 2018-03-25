@@ -1528,7 +1528,7 @@ footer {
   .content-nav-tabs .tab-content .table tbody tr:last-child td:last-child, .content-nav-tabs .tab-content .table tbody tr:last-child th:last-child {
     border-bottom: 4px solid #F8F8F8; }
 
-@media all and (min-width: 544px) and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 992px) {
   .content-slider .col-sm-5 {
     flex: 0 0 41.6666% !important;
     max-width: 41.6666%; }
@@ -1536,9 +1536,10 @@ footer {
     flex: 0 0 58.3333% !important;
     max-width: 58.3333%; } }
 
-@media only screen and (max-width: 543px) {
+@media only screen and (max-width: 767px) {
   .content-slider .col-xs-12 {
-    flex: 0 0 100%; } }
+    flex: 0 0 100%;
+    max-width: 100%; } }
 
 @media only screen and (max-width: 767px) {
   .content-slider .col-xs-9 {
