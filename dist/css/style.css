@@ -1574,7 +1574,10 @@ footer {
     font-family: Gilroy-Medium;
     line-height: 22px;
     border: none;
+    margin-bottom: 0;
     background-color: #FAFAFA; }
+    .basket-steps.list-group .list-group-item:last-child:after {
+      display: none; }
     .basket-steps.list-group .list-group-item:after {
       content: '';
       position: absolute;
