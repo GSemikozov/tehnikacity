@@ -1,0 +1,16 @@
+.idea
+.idea/
+.DS_Store
+bower_components
+components
+node_modules
+pages/emails
+src
+templates
+package-lock.json
+package.json
+bower.json
+.bowerrc
+gulpfile.babel.js
+.babelrc
+.gitignore
