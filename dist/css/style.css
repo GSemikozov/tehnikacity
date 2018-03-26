@@ -1701,6 +1701,53 @@ footer {
     line-height: 2;
     text-align: center; }
 
+.basket-product-list-footer {
+  padding: 10px 0 30px;
+  color: #003764;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  line-height: 22px; }
+  .basket-product-list-footer .summary-price {
+    color: #007CE2; }
+
+.basket-product-list {
+  margin-bottom: 20px; }
+  .basket-product-list:not(:first-child) .list-group-item:first-child {
+    border-top: none; }
+  .basket-product-list .list-group-item {
+    padding: 10px 0 15px;
+    border-bottom-color: #E8EDF0; }
+    .basket-product-list .list-group-item:first-child, .basket-product-list .list-group-item:last-child {
+      border-bottom: 3px solid #E8EDF0 !important; }
+  .basket-product-list .remove-product-btn {
+    text-decoration: none; }
+  .basket-product-list .product-name {
+    color: #003764;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none; }
+  .basket-product-list .price {
+    color: #003764;
+    font-size: 16px;
+    font-family: Gilroy-Medium;
+    line-height: 22px; }
+    .basket-product-list .price.total-price {
+      color: #007CE2; }
+  .basket-product-list .item-title {
+    color: #A5B3C2;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 5px 0; }
+  .basket-product-list.list-group-item:last-child {
+    padding: 40px 0;
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: right;
+    font-family: Gilroy-SemiBold;
+    color: #007CE2; }
+
 .table.basket-table {
   margin-bottom: 10px; }
   .table.basket-table .remove-product-btn {
