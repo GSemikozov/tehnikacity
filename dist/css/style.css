@@ -1332,62 +1332,6 @@ footer {
       .complect-panel .collection-product .product-icon {
         max-width: 40px;
         margin-right: 12px; } }
-    .complect-panel .collection-product .product-icon .product-icon-svg-1 {
-      width: 66px;
-      height: 70px; }
-      @media only screen and (max-width: 767px) {
-        .complect-panel .collection-product .product-icon .product-icon-svg-1 {
-          width: 44px;
-          height: 44px; } }
-    .complect-panel .collection-product .product-icon .product-icon-svg-2 {
-      width: 64px;
-      height: 70px; }
-      @media only screen and (max-width: 767px) {
-        .complect-panel .collection-product .product-icon .product-icon-svg-2 {
-          width: 44px;
-          height: 44px; } }
-    .complect-panel .collection-product .product-icon .product-icon-svg-3 {
-      width: 66px;
-      height: 72px; }
-      @media only screen and (max-width: 767px) {
-        .complect-panel .collection-product .product-icon .product-icon-svg-3 {
-          width: 44px;
-          height: 44px; } }
-    .complect-panel .collection-product .product-icon .product-icon-svg-4 {
-      width: 68px;
-      height: 56px; }
-      @media only screen and (max-width: 767px) {
-        .complect-panel .collection-product .product-icon .product-icon-svg-4 {
-          width: 44px;
-          height: 44px; } }
-    .complect-panel .collection-product .product-icon .product-icon-svg-5 {
-      width: 62px;
-      height: 70px; }
-      @media only screen and (max-width: 767px) {
-        .complect-panel .collection-product .product-icon .product-icon-svg-5 {
-          width: 44px;
-          height: 44px; } }
-    .complect-panel .collection-product .product-icon .product-icon-svg-6 {
-      width: 66px;
-      height: 70px; }
-      @media only screen and (max-width: 767px) {
-        .complect-panel .collection-product .product-icon .product-icon-svg-6 {
-          width: 44px;
-          height: 44px; } }
-    .complect-panel .collection-product .product-icon .product-icon-svg-7 {
-      width: 66px;
-      height: 70px; }
-      @media only screen and (max-width: 767px) {
-        .complect-panel .collection-product .product-icon .product-icon-svg-7 {
-          width: 44px;
-          height: 44px; } }
-    .complect-panel .collection-product .product-icon .product-icon-svg-8 {
-      width: 66px;
-      height: 70px; }
-      @media only screen and (max-width: 767px) {
-        .complect-panel .collection-product .product-icon .product-icon-svg-8 {
-          width: 44px;
-          height: 44px; } }
     @media only screen and (max-width: 767px) {
       .complect-panel .collection-product .product-icon svg, .complect-panel .collection-product .product-icon img {
         vertical-align: middle; } }
@@ -1463,7 +1407,7 @@ footer {
       z-index: 1; }
     .complect-panel .collection-product.checked .product-title {
       color: #fff; }
-    .complect-panel .collection-product.checked .product-icon svg > .a {
+    .complect-panel .collection-product.checked .product-icon svg .a {
       fill: #fff; }
 
 .complect-panel .horizontal-scroll {
@@ -1559,18 +1503,18 @@ footer {
     border-top: 4px solid #F8F8F8;
     border-left: 4px solid #F8F8F8;
     border-right: 4px solid #F8F8F8;
-    border-bottom: none;
-    color: #007CE2;
+    background-color: #F8F8F8;
+    color: #003764;
     font-family: Gilroy-Bold;
     font-size: 16px;
     line-height: 22px;
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative; }
-    .content-nav-tabs .nav-tabs .nav-link:not(.active):after {
+    .content-nav-tabs .nav-tabs .nav-link.active:after {
       content: '';
       position: absolute;
-      bottom: -3px;
+      bottom: -4px;
       height: 4px;
       width: 100%;
       left: 0;
@@ -1579,11 +1523,12 @@ footer {
       .content-nav-tabs .nav-tabs .nav-link {
         padding: 9px 16px; } }
     .content-nav-tabs .nav-tabs .nav-link:hover, .content-nav-tabs .nav-tabs .nav-link:active, .content-nav-tabs .nav-tabs .nav-link:focus {
-      color: #003764; }
+      color: #003764;
+      border-bottom-color: #F8F8F8; }
     .content-nav-tabs .nav-tabs .nav-link.active {
-      border-right: 4px solid transparent;
-      background-color: #F8F8F8;
-      color: #003764; }
+      background-color: transparent;
+      border-bottom: none;
+      color: #007CE2; }
 
 .content-nav-tabs .tab-content {
   padding: 45px;
