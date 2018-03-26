@@ -96,4 +96,4 @@ gulp.task('open', () => {
 gulp.task('css', ['sass', 'css-minify']);
 gulp.task('images', ['imgmin']);
 gulp.task('serv', ['server', 'livereload', 'watch']);
-gulp.task('default', ['css', 'imgmin', 'scripts', 'server', 'livereload', 'watch']);
+gulp.task('default', ['css', 'imgmin', 'scripts', 'open', 'server', 'livereload', 'watch']);
