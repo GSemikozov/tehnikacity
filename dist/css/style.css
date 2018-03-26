@@ -478,6 +478,8 @@ nav.navbar {
   .header-top-panel {
     height: 82px;
     padding: 20px 0; }
+    .header-top-panel .navbar-brand {
+      padding: 0; }
     .header-top-panel .navbar-brand, .header-top-panel .navbar-brand img {
       height: 42px;
       width: 149px; } }
@@ -818,10 +820,11 @@ footer {
 
 .brands-list-wrap {
   position: relative;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  overflow: hidden; }
   @media only screen and (max-width: 767px) {
     .brands-list-wrap {
-      margin-bottom: 30px;
+      margin-bottom: 15px;
       margin-top: -10px; } }
   .brands-list-wrap .arrow-left, .brands-list-wrap .arrow-right {
     position: absolute;
@@ -834,26 +837,50 @@ footer {
     right: -15px; }
 
 .brands-list {
-  overflow-y: auto;
-  min-width: 1140px; }
-  @media only screen and (max-width: 767px) {
-    .brands-list {
-      min-width: 720px; } }
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+  -ms-overflow-style: none;
+  position: relative;
+  z-index: 1; }
+  .brands-list::-webkit-scrollbar {
+    display: none; }
+  .brands-list:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: #fff;
+    z-index: 999; }
   .brands-list > [class*="col"] {
     padding: 0 15px; }
   .brands-list .brand {
     background-color: transparent;
     position: relative;
     display: block;
-    padding: 0 25px;
     text-decoration: none;
     transition: .3s all;
-    min-width: 160px; }
+    min-width: 160px;
+    padding: 0 40px; }
+    .brands-list .brand:first-child {
+      padding-left: 20px; }
+    .brands-list .brand:last-child {
+      padding-right: 20px; }
     @media only screen and (max-width: 767px) {
       .brands-list .brand {
+        display: flex;
         min-width: 0;
         max-width: 120px;
-        padding: 0; } }
+        flex: 0 0 120px;
+        padding: 0;
+        margin: 0 40px; }
+        .brands-list .brand:first-child {
+          margin-left: 20px; }
+        .brands-list .brand:last-child {
+          margin-right: 20px; } }
     .brands-list .brand:hover {
       opacity: .8; }
 
@@ -1262,7 +1289,7 @@ footer {
   margin-bottom: -1px; }
 
 .complect-panel .complect-panel-content {
-  padding: 20px 30px 40px;
+  padding: 20px 30px 25px;
   background-color: #FCFCFC;
   position: relative; }
   .complect-panel .complect-panel-content .carousel-control-next, .complect-panel .complect-panel-content .carousel-control-prev {
@@ -1416,7 +1443,22 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    overflow-x: auto; }
+    overflow-x: auto;
+    position: relative;
+    padding-bottom: 15px;
+    z-index: 1;
+    -ms-overflow-style: none; }
+    .complect-panel .horizontal-scroll .collection-products::-webkit-scrollbar {
+      display: none; }
+    .complect-panel .horizontal-scroll .collection-products:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 15px;
+      background-color: #FCFCFC;
+      z-index: 999; }
     @media only screen and (max-width: 767px) {
       .complect-panel .horizontal-scroll .collection-products {
         margin: 10px 0; } }
