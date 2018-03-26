@@ -1866,6 +1866,51 @@ footer {
     .confirmation .link:hover {
       text-decoration: none; }
 
+.modal.complect-done .modal-content {
+  border-radius: 30px; }
+  .modal.complect-done .modal-content .modal-body {
+    padding: 50px 50px 30px; }
+    .modal.complect-done .modal-content .modal-body .modal-title {
+      color: #003764;
+      font-family: Gilroy-Bold;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 30px; }
+      @media only screen and (max-width: 767px) {
+        .modal.complect-done .modal-content .modal-body .modal-title {
+          margin-bottom: 25px; } }
+    .modal.complect-done .modal-content .modal-body .modal-text {
+      font-size: 15px;
+      line-height: 19px; }
+      @media only screen and (max-width: 767px) {
+        .modal.complect-done .modal-content .modal-body .modal-text {
+          font-size: 14px;
+          line-height: 17px;
+          margin-bottom: 10px !important;
+          padding-top: 0 !important; } }
+
+.modal.complect-done .modal-header {
+  padding: 0;
+  border-radius: 30px 30px 0 0;
+  overflow: hidden;
+  border-bottom: none; }
+
+@media (min-width: 576px) {
+  .modal.complect-done .modal-dialog {
+    max-width: 400px; } }
+
+.modal.complect-done .social-icons {
+  text-align: center; }
+  .modal.complect-done .social-icons .social-icon {
+    display: inline-block;
+    width: 37px;
+    margin: 5px 3px; }
+    .modal.complect-done .social-icons .social-icon img {
+      width: 100%;
+      max-width: 100%; }
+
 /*.m-a-xs { margin:        ($spacer * 0.5) !important; }
 .m-t-xs { margin-top:    ($spacer-y * 0.5) !important; }
 .m-r-xs { margin-right:  ($spacer-y * 0.5) !important; }
