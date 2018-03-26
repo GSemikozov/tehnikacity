@@ -478,6 +478,8 @@ nav.navbar {
   .header-top-panel {
     height: 82px;
     padding: 20px 0; }
+    .header-top-panel .navbar-brand {
+      padding: 0; }
     .header-top-panel .navbar-brand, .header-top-panel .navbar-brand img {
       height: 42px;
       width: 149px; } }
