@@ -1596,6 +1596,9 @@ footer {
         border: none;
         border-right: 4px solid #F8F8F8;
         border-left: 4px solid #F8F8F8; } }
+  @media all and (max-width: 375px) {
+    .content-nav-tabs .tab-content .table tr th, .content-nav-tabs .tab-content .table tr td {
+      padding: 12px 0; } }
   .content-nav-tabs .tab-content .table tr th:first-child, .content-nav-tabs .tab-content .table tr td:first-child {
     font-family: Gilroy-Medium;
     border-right: none; }
