@@ -1866,6 +1866,18 @@ footer {
     .confirmation .link:hover {
       text-decoration: none; }
 
+.social-icons {
+  text-align: center;
+  white-space: nowrap;
+  display: inline-block; }
+  .social-icons .social-icon {
+    display: inline-block;
+    width: 26px;
+    margin: 2px; }
+    .social-icons .social-icon img {
+      width: 100%;
+      max-width: 100%; }
+
 .modal.complect-done .modal-content {
   border-radius: 30px; }
   .modal.complect-done .modal-content .modal-body {
@@ -1901,15 +1913,9 @@ footer {
   .modal.complect-done .modal-dialog {
     max-width: 400px; } }
 
-.modal.complect-done .social-icons {
-  text-align: center; }
-  .modal.complect-done .social-icons .social-icon {
-    display: inline-block;
-    width: 37px;
-    margin: 5px 3px; }
-    .modal.complect-done .social-icons .social-icon img {
-      width: 100%;
-      max-width: 100%; }
+.modal.complect-done .social-icons .social-icon {
+  width: 37px;
+  margin: 5px 3px; }
 
 /*.m-a-xs { margin:        ($spacer * 0.5) !important; }
 .m-t-xs { margin-top:    ($spacer-y * 0.5) !important; }
